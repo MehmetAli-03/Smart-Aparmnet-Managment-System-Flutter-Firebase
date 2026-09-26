@@ -12,74 +12,74 @@
 
   <br />
 
-  ### 🎬 [>> CANLI DEMO VİDEOSUNU İZLE & APK İNDİR (GOOGLE DRIVE) <<](https://drive.google.com/file/d/1qazrkkPzZanzRvirfsafmo1PBJneNte9/view)
+  ### 🎬 [>> WATCH LIVE DEMO & DOWNLOAD APK (GOOGLE DRIVE) <<](https://drive.google.com/file/d/1qazrkkPzZanzRvirfsafmo1PBJneNte9/view)
 
 </div>
 
 ---
 
-## 📱 Live Demo & Video Showcase (Öne Çıkanlar)
+## 📱 Live Demo & Video Showcase (Highlights)
 
-Uygulamanın çalışan test sürümlerini (APK), ekran kayıtlarını ve canlı test videolarını aşağıdaki bağlantı üzerinden inceleyebilirsiniz:
+You can review the working test builds (APK), screen recordings, and live demo videos via the link below:
 
-> 🚀 **Google Drive Medya Klasörü:** [Smart Management App - Demo & APK](https://drive.google.com/file/d/1qazrkkPzZanzRvirfsafmo1PBJneNte9/view)
+> 🚀 **Google Drive Media Folder:** [Smart Management App - Demo & APK](https://drive.google.com/file/d/1qazrkkPzZanzRvirfsafmo1PBJneNte9/view)
 > 
-> * **Test APK:** Fiziksel Android cihazınıza yükleyip test edebilirsiniz.
-> * **Video Walkthrough:** Admin ve Sakin (Resident) panellerinin canlı kullanım senaryoları.
+> * **Test APK:** Install and test directly on your physical Android device.
+> * **Video Walkthrough:** Live usage scenarios of both Admin and Resident panels.
 
 ---
 
-## ⚡ Executive Summary / Proje Özeti
+## ⚡ Executive Summary
 
-**Smart Apartment Management System**, geleneksel apartman ve site yönetim süreçlerindeki verimsizliği ortadan kaldıran, **ölçeklenebilir, rol tabanlı (RBAC) ve KVKK/GDPR uyumlu (Gizlilik Odaklı)** bir mobil ekosistemdir.
+**Smart Apartment Management System** is a mobile ecosystem designed to eliminate inefficiencies in traditional apartment and complex management processes. It is **scalable, role-based (RBAC), and compliance-ready (Privacy-First / KVKK & GDPR compliant)**.
 
-Klasik iletişim kanallarında (WhatsApp vb.) yaşanan **kişisel veri ihlalleri, kaybolan ödeme dekontları, takibi imkansız şikayetler ve şeffaf olmayan karar alma süreçleri** bu uygulama ile tek bir merkezi platformda çözüme kavuşturulur.
+Issues commonly faced in traditional communication channels (e.g., WhatsApp groups)—such as **data privacy violations, lost payment receipts, untrackable complaints, and non-transparent decision-making processes**—are resolved within a single, centralized platform.
 
 ---
 
-## 🔍 Deep Dive: Module & Feature Capabilities (Detaylı Özellik Modülleri)
+## 🔍 Deep Dive: Module & Feature Capabilities
 
-### 🔐 1. Zero-Trust Privacy & Auth System (Gizlilik & Doğrulama Modülü)
-* **Telefon Numarası Gizleme:** WhatsApp gruplarının aksine, bina sakinlerinin kişisel telefon numaraları ve soyadları diğer kullanıcılar tarafından **asla görülemez**.
-* **Daire Bazlı Kimliklendirme:** Kullanıcılar sistemde sadece `Daire No` (Örn: *Daire 14 - Sakin*) olarak temsil edilir.
-* **Rol Tabanlı Giriş (RBAC):** Firebase Auth altyapısı ile `Admin` (Yönetici) ve `Resident` (Bina Sakini) hesapları giriş anında yetkilendirilir ve ilgili arayüze yönlendirilir.
+### 🔐 1. Zero-Trust Privacy & Auth System
+* **Phone Number Obfuscation:** Unlike WhatsApp groups, residents' personal phone numbers and last names are **never visible** to other users.
+* **Apartment-Based Identification:** Users are represented in the system strictly by their `Apartment No` (e.g., *Apt 14 - Resident*).
+* **Role-Based Access Control (RBAC):** Powered by Firebase Auth, `Admin` and `Resident` accounts are authorized upon login and routed to their respective dashboards.
 
-### 💳 2. Financial Engine & Receipt Approval (Finans & Dekont Modülü)
-* **Bina IBAN ve Aidat Takipleri:** Sakinler, yönetimin belirlediği güncel aidat miktarını ve bina banka IBAN bilgilerini canlı olarak görüntüler.
-* **Dekont Yükleme (Receipt Upload):** Sakinler yaptıkları ödemelerin dekont/fatura görsellerini doğrudan uygulama üzerinden Firebase Storage'a yükler.
-* **Yönetici Onay Mekanizması:** Yöneticinin paneline düşen dekontlar incelenir; "Onaylandı" veya "Reddedildi" olarak işaretlenir. Tüm finansal geçmiş kayıt altında tutulur.
+### 💳 2. Financial Engine & Receipt Approval
+* **Building IBAN & Dues Tracking:** Residents can view up-to-date monthly dues and the building's official bank IBAN in real time.
+* **Receipt Upload:** Residents upload proof-of-payment documents or bank receipts directly to Firebase Storage via the app.
+* **Admin Approval Workflow:** Uploaded receipts land on the admin dashboard for review and can be marked as "Approved" or "Rejected", keeping a complete audit trail.
 
-### 🎫 3. Ticket-Based Complaint & Maintenance System (Şikayet & Arıza Takipleri)
-* **Bireysel Bilet Açma:** Sakinler bina ile ilgili arıza, gürültü veya temizlik problemlerini resim ve açıklama ekleyerek bilet (ticket) olarak yönetime iletir.
-* **Durum Takibi (Real-time Status):** Biletlerin durumu (`Beklemede` $\rightarrow$ `İşlemde` $\rightarrow$ `Çözüldü`) sakin tarafından canlı takip edilir.
-* **Gürültüsüz Çözüm:** Şikayetler genel gruplarda tartışmaya yol açmadan doğrudan yönetim ile sakin arasında çözülür.
+### 🎫 3. Ticket-Based Complaint & Maintenance System
+* **Individual Ticket Logging:** Residents submit maintenance issues, noise complaints, or cleaning requests directly to management as tickets with descriptions and photos.
+* **Real-Time Status Tracking:** Ticket lifecycles (`Pending` $\rightarrow$ `In Progress` $\rightarrow$ `Resolved`) are tracked live by the resident.
+* **Private Resolution:** Issues are resolved privately between management and the resident, avoiding toxic group chat arguments.
 
-### 🗳️ 4. Real-Time Polls & Decision Engine (Canlı Anket & Oylama)
-* **Demokratik Karar Alma:** Yönetici, binayı ilgilendiren kararlar için (Örn: *Dış cephe boyası seçimi*, *Güvenlik kamerası takılması*) anketler oluşturur.
-* **Tek Daire - Tek Oy İlkesi:** Veritabanı kuralları ile her dairenin sadece 1 oy kullanması garanti altına alınır.
-* **Anlık Grafik & Sonuçlar:** Kullanılan oylar anlık grafiklerle tüm sakinlere şeffafça gösterilir.
+### 🗳️ 4. Real-Time Polls & Decision Engine
+* **Democratic Decision Making:** Admins create interactive polls for building decisions (e.g., *exterior painting color*, *security camera installation*).
+* **One Apartment, One Vote:** Database security rules enforce that each apartment can cast only one vote.
+* **Live Analytics & Results:** Voting tallies are updated dynamically and presented transparently to all residents.
 
-### 📢 5. Push-Notified Announcement Board (Duyuru Pano Modülü)
-* **Öncelikli Duyurular:** Yönetici tarafından yayınlanan acil durum veya genel bilgilendirmeler (Su kesintisi, toplantı tarihi vb.) anında panoya düşer.
-* **Yerel Bildirim Entegrasyonu:** `flutter_local_notifications` ve Firebase Messaging ile duyurular sakinin telefonuna bildirim olarak iletilir.
+### 📢 5. Push-Notified Announcement Board
+* **Priority Notices:** Critical updates published by management (water outages, annual meetings, etc.) appear instantly on the notice board.
+* **Push Notification Integration:** Built with `flutter_local_notifications` and Firebase Messaging to deliver urgent announcements straight to residents' phones.
 
 ---
 
 ## 🆚 Comparison Matrix: WhatsApp vs. Smart Apartment System
 
-| Özellik / Senaryo | WhatsApp Grupları ❌ | Smart Apartment System 🚀 |
+| Feature / Scenario | WhatsApp Groups ❌ | Smart Apartment System 🚀 |
 | :--- | :--- | :--- |
-| **KVKK / GDPR Uyumluğu** | İhlal var (Numaralar herkese açık) | **Tam Uyumlu (Sadece Daire No görünür)** |
-| **Aidat Dekont Takipleri** | Mesajlar arasında kaybolur | **Sisteme yüklenir, Yöneticiden onay bekler** |
-| **Karar Alma / Oylama** | Kaotik mesajlaşma, manuel sayım | **Canlı Anket (Poll) modülü ile anlık sonuç** |
-| **Arıza & Şikayet Yönetimi** | Mahalle baskısı, uzayıp giden tartışmalar | **Bireysel Bilet (Ticket) sistemiyle gizli takip** |
-| **Eski Kiracı / Sakin Takipleri** | Grupta unutulur, bilgi sızabilir | **Yönetici tarafından anında erişim engeli** |
+| **Privacy & Compliance** | Violations common (Phone numbers public) | **Full Compliance (Only Apartment No visible)** |
+| **Payment & Receipt Tracking** | Lost in chat history | **Uploaded to system, awaiting admin approval** |
+| **Decision Making / Polling** | Chaotic messaging, manual counting | **Live Polling module with real-time results** |
+| **Incident & Maintenance Handling** | Public arguments, peer pressure | **Private Ticket system with status tracking** |
+| **Tenant Offboarding** | Forgotten in group chats, data leak risk | **Instant access revocation by Admin** |
 
 ---
 
 ## 🏗 Technical Architecture & Clean Code
 
-Proje, bakımı kolay, test edilebilir ve yüksek ölçeklenebilir **Feature-First Clean Architecture** standartlarında geliştirilmiştir.
+The project is developed following the industry-standard **Feature-First Clean Architecture** for maximum maintainability, testability, and scalability.
 
 ```text
 lib/
