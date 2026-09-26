@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "888285116653",
+    "firebase_url": "https://buildmanagment2026-default-rtdb.firebaseio.com",
+    "project_id": "buildmanagment2026",
+    "storage_bucket": "buildmanagment2026.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888285116653:android:5c53e7956e876c6c40f4e4",
+        "android_client_info": {
+          "package_name": "com.example.build_managment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNnlu3qRoNLJjQowg1DxzFgXK0CCJeTK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
